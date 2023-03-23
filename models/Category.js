@@ -13,7 +13,7 @@ Category.init(
     },
     // Define the 'category_name' column
     category_name: {
-      type: DataTypes.STRING, // Set the data type to STRING
+      type: DataTypes.STRING, // Set the data type to STRINGexit
     },
   },
   {
@@ -24,3 +24,5 @@ Category.init(
     modelName: "category",
   }
 );
+
+module.exports = Category;
