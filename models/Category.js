@@ -1,5 +1,7 @@
 const { Model, DataTypes } = require("sequelize");
+
 const sequelize = require("../config/connection.js");
+
 class Category extends Model {}
 
 Category.init(
@@ -13,7 +15,7 @@ Category.init(
     },
     // Define the 'category_name' column
     category_name: {
-      type: DataTypes.STRING, // Set the data type to STRINGexit
+      type: DataTypes.STRING, // Set the data type to STRING
     },
   },
   {

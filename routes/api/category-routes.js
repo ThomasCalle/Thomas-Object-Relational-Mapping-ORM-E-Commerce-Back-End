@@ -77,5 +77,3 @@ router.delete('/:id', async (req, res) => {
 // Export the router
 module.exports = router;
 
-// My apologies, to the TA's this update may have been too comment heavy - nonetheless... 
-// these modules are meant to be a great reference for my career so thererfore the comments were necessary 😊
