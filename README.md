@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-
+The back-end database has been purposed towards e-commerce websites using Express.js API and Sequelize to connect to the MySQL database. The back-end database allows users to create a development database, seed it with test data, and sync Sequelize models to MySQL database. User's have the ability to use GET, POST, PUT, and DELETE routes to display and manipulate data in the users database. Give it a try and see how it helps your company power up to the next level!
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -19,7 +19,7 @@
 # Overview
 
 ## The Challenge:
-
+This challenge requires the creation of an e-commerce back-end site that meets specific user requirements. These requirements include the ability to connect to a MySQL database using Sequelize, create a development database that is seeded with test data, sync Sequelize models to the MySQL database, and display data from categories, products, and tags in a formatted JSON. The application should also be able to create, update, and delete data in the database.
 ## User Story
 
 ```md
@@ -57,11 +57,16 @@ The following animation demonstrates the application functionality:
 5. Click the + icon (top right) to add another note.
 6. Additional: Click the trash icon to delete saved notes.
 
+
+1. Connect to the database, ensure that the environment variable file is updated with the correct database name, MySQL username, and MySQL password. 
+2. Generate a development database with test data, use the schema and seed commands.
+3. Use Insomnia to test API GET, POST, PUT, and DELETE routes for categories, products, and tags, ensuring successful creation, updating, and deletion of data in the database.
+
 ## Deployed Application Link:
 [Deployed Application Link:](https://e-js-note.herokuapp.com/)
 
 ## YouTube Walkthrough Video:
-[Click Here to Watch](https://www.youtube.com/watch?v=-UiqzvUe360&t=22s)
+[Click Here to Watch](https://youtu.be/hGVJLTGqPgk)
 
 ## Screenshots:
 ### Figure 1. Screenshot
@@ -76,22 +81,27 @@ The following animation demonstrates the application functionality:
 ## Built With
 - Saiyan Pride
 - JSON:[ JSON](https://www.npmjs.com/package/json)
-- Heroku:[ Heroku ](https://www.heroku.com/)
 - Dynamic JavaScript
-- Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- Dotenv: [8.6.0](https://www.npmjs.com/package/dotenv)
+- Express: [4.17.1](https://www.npmjs.com/package/express)
+- Node.js: [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
 - Express.js:[Express.js](https://expressjs.com/en/starter/installing.html)
+- Node MySql2: [2.3.3](https://www.npmjs.com/package/mysql2)
+- Sequelize: [6.29.3](https://www.npmjs.com/package/sequelize)
+- Insomnia: [by Kong](https://insomnia.rest/)
+- Nodemon: [2.0.12](https://www.npmjs.com/package/nodemon/v/2.0.12)
 - License Badge: [Shields.io](https://shields.io/)
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
 
-## What I Learned
-1.
-2.
-3.
+## What I Learned:
+1. How to use Express.js to create a functional back end for an e-commerce website.
+2. How to connect to a MySQL database using Sequelize and update environment variable files accordingly.
+3. How to generate a development database with test data using schema and seed commands.
 
 ### Continued Development:
-1. 
-2.
-3.
+1. Implement the latest technologies, such as Express.js, MySQL, and Sequelize to create a functional back end for the e-commerce website.
+2. Ensure that the environment variable file is updated with the database name, MySQL username, and MySQL password to connect to the database using Sequelize.
+3. Create schema and seed commands to generate a development database with test data, allowing for a smooth testing process.
 
 ## License & Copyright ©
   
