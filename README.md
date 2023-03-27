@@ -47,7 +47,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ### Figure .1 GIF
 
 The following animation demonstrates the application functionality:
-![A user clicks on slots on the color-coded calendar and edits the events.](/public/assets/images/Express-JS-Note-Taker.GIF)
+![A user clicks on slots on the color-coded calendar and edits the events.](/Assets/Images/ORM.GIF)
 
 ## Usage Instructions
 1. Repository: Open documentation run 'npm i' and update '.env'.
@@ -63,11 +63,11 @@ The following animation demonstrates the application functionality:
 [GitHub Repository:](https://github.com/ThomasCalle/Thomas-Object-Relational-Mapping-ORM-E-Commerce-Back-End)
 
 ## YouTube Walkthrough Video:
-[Click Here to Watch](https://youtu.be/hGVJLTGqPgk)
+[Click Here to Watch](https://www.youtube.com/watch?v=hGVJLTGqPgk&t=12s)
 
 ## Screenshots:
 ### Figure 1. Screenshot
-![](/public/assets/images/Screenshot.png) 
+![](/Assets/Images/Thomas_ORM_Screenshot.png) 
 
 ## Installation Process
 1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
