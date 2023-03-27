@@ -94,7 +94,7 @@ The following animation demonstrates the application functionality:
 2. How to connect to a MySQL database using Sequelize and update environment variable files accordingly.
 3. How to generate a development database with test data using schema and seed commands.
 
-### Continued Development:
+## Continued Development:
 1. Implement the latest technologies, such as Express.js, MySQL, and Sequelize to create a functional back end for the e-commerce website.
 2. Ensure that the environment variable file is updated with the database name, MySQL username, and MySQL password to connect to the database using Sequelize.
 3. Create schema and seed commands to generate a development database with test data, allowing for a smooth testing process.
