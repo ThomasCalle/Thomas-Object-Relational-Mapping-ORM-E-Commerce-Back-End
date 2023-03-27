@@ -47,7 +47,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ### Figure .1 GIF
 
 The following animation demonstrates the application functionality:
-![A user clicks on slots on the color-coded calendar and edits the events.](/Assets/Images/ORM.GIF)
+![A user clicks on slots on the color-coded calendar and edits the events.](/public/assets/Images/ORM.GIF)
 
 ## Usage Instructions
 1. Repository: Open documentation run 'npm i' and update '.env'.
@@ -67,7 +67,7 @@ The following animation demonstrates the application functionality:
 
 ## Screenshots:
 ### Figure 1. Screenshot
-![](/Assets/Images/Thomas_ORM_Screenshot.png) 
+![](/public/assets/Images/Thomas_ORM_Screenshot.png) 
 
 ## Installation Process
 1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
