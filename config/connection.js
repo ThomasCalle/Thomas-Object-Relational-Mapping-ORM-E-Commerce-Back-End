@@ -1,7 +1,9 @@
+// Require the dotenv module to load environment variables
 require('dotenv').config();
-
+// Require the Sequelize module
 const Sequelize = require('sequelize');
-
+// Create a new instance of Sequelize and connect to the database using the 
+// JAWSDB_URL environment variable if available, otherwise use the DB_NAME, DB_USER, and DB_PASSWORD environment variables to connect to a local MySQL database
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
   : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
@@ -11,5 +13,5 @@ const sequelize = process.env.JAWSDB_URL
         decimalNumbers: true,
       },
     });
-
+// Export the sequelize instance for use in other modules
 module.exports = sequelize;

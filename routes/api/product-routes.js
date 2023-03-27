@@ -47,6 +47,7 @@ router.post("/", (req, res) => {
       res.status(400).json({ message: "Creation failed", error: err });
     });
 });
+// PLEASE NOTE CODE EDIT HAS BEEN SAVED FOR LEGACY CODING PURPOSES.
 
 // Update a product
 // router.put("/:id", (req, res) => {
@@ -93,9 +94,9 @@ router.post("/", (req, res) => {
 // });
 
 
-// CODE EDIT
-// CODE EDIT 
-// CODE EDIT 
+// CODE EDIT END 
+// CODE EDIT END 
+// CODE EDIT END 
 
 router.put("/:id", async (req, res) => {
   try {
