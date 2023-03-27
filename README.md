@@ -50,20 +50,17 @@ The following animation demonstrates the application functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](/public/assets/images/Express-JS-Note-Taker.GIF)
 
 ## Usage Instructions
-1. Click here to open the [Deployed Application Link:](https://e-js-note.herokuapp.com/)
-2. Click "Get Started" to open the note taker.
-3. Enter text into the 'title' and 'text' fields 
-4. Click the save icon (top right) to save the note.
-5. Click the + icon (top right) to add another note.
-6. Additional: Click the trash icon to delete saved notes.
-
-
-1. Connect to the database, ensure that the environment variable file is updated with the correct database name, MySQL username, and MySQL password. 
-2. Generate a development database with test data, use the schema and seed commands.
-3. Use Insomnia to test API GET, POST, PUT, and DELETE routes for categories, products, and tags, ensuring successful creation, updating, and deletion of data in the database.
+1. Repository: Open documentation run 'npm i' and update '.env'.
+2. Create database: use the schema.sql file in the db folder with MySQL shell commands. Use environment variables to store sensitive data like your MySQL username, password, and database name.
+3. Run 'npm run seed' to seed the database with test data. Then, run 'npm start' or 'nodemon' to start the server and sync the Sequelize models to the MySQL database.
+4. Generate a development database with test data, use the schema and seed commands.
+5. Use Insomnia to test http://localhost:3001 with the following route end points API GET, POST, PUT, and DELETE routes for categories, products, and tags, ensuring successful creation, updating, and deletion of data in the database.
 
 ## Deployed Application Link:
-[Deployed Application Link:](https://e-js-note.herokuapp.com/)
+[Deployed Application Link:](https://github.com/ThomasCalle/Thomas-Object-Relational-Mapping-ORM-E-Commerce-Back-End)
+
+## GitHub Repository:
+[GitHub Repository:](https://github.com/ThomasCalle/Thomas-Object-Relational-Mapping-ORM-E-Commerce-Back-End)
 
 ## YouTube Walkthrough Video:
 [Click Here to Watch](https://youtu.be/hGVJLTGqPgk)
@@ -73,10 +70,9 @@ The following animation demonstrates the application functionality:
 ![](/public/assets/images/Screenshot.png) 
 
 ## Installation Process
-1. Clone the Repository from GitHub 
-2. (or) Download Zip Folder from Repository from GitHub
-3. Open the cloned (or downloaded) repository in any source code editor.
-4. Open the integrated terminal for the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
+1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
+2. Open the cloned (or downloaded) repository in any source code editor.
+3. Open the integrated terminal of the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
 
 ## Built With
 - Saiyan Pride
