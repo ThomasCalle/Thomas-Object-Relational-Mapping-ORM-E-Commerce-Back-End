@@ -62,8 +62,13 @@ The following animation demonstrates the application functionality:
 ## GitHub Repository:
 [GitHub Repository:](https://github.com/ThomasCalle/Thomas-Object-Relational-Mapping-ORM-E-Commerce-Back-End)
 
-## YouTube Walkthrough Video:
-[Click Here to Watch](https://www.youtube.com/watch?v=hGVJLTGqPgk&t=12s)
+## YouTube Walkthrough Video: ORIGINAL VERSION
+## Thomas' Object-Relational Mapping (ORM): E-Commerce Back End | UofT Coding Bootcamp: Module 13
+[Click Here to Watch](https://www.youtube.com/watch?v=hGVJLTGqPgk&t=177s)
+
+## YouTube Walkthrough Video: REMASTERED VERSION
+## Thomas' (ORM): E-Commerce Back End (REMASTERED) MySQL Shell + Seed DataBase
+[Click Here to Watch](https://www.youtube.com/watch?v=b3jgsfbJijw)
 
 ## Screenshots:
 ### Figure 1. Screenshot
